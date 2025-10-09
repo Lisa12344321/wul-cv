@@ -1,0 +1,64 @@
+aside {
+
+    background-color: rgb(85, 63, 130);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.sidebar {
+
+    flex-basis: 16rem;
+    flex-grow: 1;
+
+}
+
+
+
+.not-sidebar {
+
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+
+}
+
+.wrapper {
+
+    max-width: 56rem;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+header {
+    background-color: rgb(199, 205, 255);
+    color:rgb(35, 94, 177);
+    border-radius: 1rem;
+    margin: 1rem;
+    gap: 3rem;
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+}
+
+.aside-image {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif
+
+}
