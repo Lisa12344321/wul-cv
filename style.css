@@ -2,9 +2,24 @@ aside {
 
     background-color: rgb(85, 63, 130);
     align-items: center;
-    padding: 1rem;
-    border-radius: 1rem;
+
 }
+
+h2 {
+
+    font-size: 2.7rem;
+    max-width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+text {
+    font-size: 1rem;
+    max-width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 
 .with-sidebar {
@@ -16,8 +31,9 @@ aside {
 
 .sidebar {
 
-    flex-basis: 16rem;
+    flex-basis: 14rem;
     flex-grow: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 
@@ -33,20 +49,12 @@ aside {
 
 .wrapper {
 
-    max-width: 56rem;
+    max-width: 40rem;
     margin-right: auto;
     margin-left: auto;
 
 }
 
-header {
-    background-color: rgb(199, 205, 255);
-    color:rgb(35, 94, 177);
-    border-radius: 1rem;
-    margin: 1rem;
-    gap: 3rem;
-    text-align: center;
-}
 
 img {
     max-width:100%;
@@ -54,7 +62,6 @@ img {
 
 .aside-image {
     width: 100%;
-    border-radius: 1rem;
 }
 
 
