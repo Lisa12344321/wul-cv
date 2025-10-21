@@ -1,23 +1,46 @@
 aside {
 
-    background-color: rgb(85, 63, 130);
+    background-color: rgb(61, 29, 124);
     align-items: center;
 
 }
 
+h1 {
+
+    background-color: rgb(61, 29, 124);
+    font-size: 1rem;
+    max-width: 15rem;
+    margin-right: auto;
+    margin-left: auto;
+    color:rgb(59, 185, 207);
+    padding: 0.2rem;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+
+
+
+
+
 h2 {
 
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     max-width: 10rem;
     margin-right: auto;
     margin-left: auto;
+    color:rgb(59, 185, 207);
 }
 
-text {
+h3, h4 {
+
     font-size: 1rem;
     max-width: 10rem;
     margin-right: auto;
     margin-left: auto;
+    color:rgb(73, 164, 203);
+
+
 }
 
 
@@ -34,9 +57,27 @@ text {
     flex-basis: 14rem;
     flex-grow: 1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 
 }
 
+.mitten {
+
+    max-width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.listan {
+
+    max-width: 8rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 0.7rem;
+}
 
 
 .not-sidebar {
