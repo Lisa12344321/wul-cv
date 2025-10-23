@@ -14,7 +14,6 @@ h1 {
     margin-left: auto;
     color:rgb(59, 185, 207);
     padding: 0.2rem;
-    text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     
 }
@@ -32,15 +31,32 @@ h2 {
     color:rgb(59, 185, 207);
 }
 
-h3, h4 {
+h3 {
 
-    font-size: 1rem;
+    font-size: 0.83rem;
     max-width: 10rem;
     margin-right: auto;
     margin-left: auto;
     color:rgb(73, 164, 203);
 
 
+}
+
+h4 {
+    font-size: 0.83rem;
+    max-width: 15.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    color:rgb(73, 164, 203);
+
+}
+
+h5 {
+    font-size: 0.6rem;
+    max-width: 15.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    color:rgb(73, 164, 203);
 }
 
 
@@ -72,7 +88,7 @@ h3, h4 {
 
 .listan {
 
-    max-width: 8rem;
+    max-width: 10.5rem;
     margin-right: auto;
     margin-left: auto;
     color: white;
@@ -88,9 +104,19 @@ h3, h4 {
 
 }
 
+.notsidebarmitten {
+    max-width: 15.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(0, 0, 0);
+    font-size: 0.7rem;
+
+}
+
+
 .wrapper {
 
-    max-width: 40rem;
+    max-width: 33rem;
     margin-right: auto;
     margin-left: auto;
 
